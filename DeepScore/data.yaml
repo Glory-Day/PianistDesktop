@@ -1,0 +1,5 @@
+train: ../train/images
+val: ../valid/images
+
+nc: 23
+names: ['brace', 'fClef', 'flag128thDown', 'flag128thUp', 'flag16thDown', 'flag16thUp', 'flag64thDown', 'flag64thUp', 'flag8thDown', 'flag8thUp', 'gClef', 'noteheadBlack', 'noteheadHalf', 'noteheadWhole', 'rest16th', 'rest8th', 'restDoubleWhole', 'restHBar', 'restHNr', 'restHalf', 'restLonga', 'restQuarter', 'restWhole']
