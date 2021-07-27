@@ -13,8 +13,8 @@ from PianistDesktop.utils.score import Score
 
 
 def main(images):
-    label_path = 'resource/data/0005.txt'
-    image_path = 'resource/image/0005.jpg'
+    label_path = 'Streamlit/resource/data/0005.txt'
+    image_path = 'Streamlit/resource/image/0005.jpg'
 
     notes = ''
 
@@ -160,7 +160,3 @@ def main(images):
     st.markdown(" ")
     st.write("2분쉼표와 온음표는 각각 2번, 3번줄에만 위치한다. 2번, 3번줄에서 BFS 알고리즘을 이용해서 사각형 객체에 도달한다면 해당 사각형 객체는 2분, 온쉼표이다.")
 
-    with open('note.txt', 'w', encoding='utf-8') as file:
-        file.write(notes)
-
-    # st.markdown(f'```f{score.notes}```')
