@@ -1,5 +1,5 @@
 <h1 style='text-align: center;'>Project Pianist</h1>
-<p align="center"><img src="Streamlit/resource/abstract/logo.jpg"></p>
+<p align="center"><img src="images/main.png"></p>
 
 ---
 
@@ -88,6 +88,8 @@ CUDA: 11.1 version
 ```bash
 pip install -r requirements.txt
 ```
+
+<p align="center"><img src="images/streamlit.png"></p>
 
 ---
 
