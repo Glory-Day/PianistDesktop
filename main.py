@@ -47,12 +47,12 @@ def main():
     }
 
     # set page's image to dictionary
-    images = {
-        "Abstract": [read_file(abstract_path + '/' + name) for name in abstract_files],
-        "Introduction": [read_file(introduction_path + '/' + name) for name in introduction_files],
-        "Object Detection": [read_file(object_detection_path + '/' + name) for name in object_detection_files],
-        "Detection Test": [read_file(detection_test_path + '/' + name) for name in detection_test_files],
-        "Computer Vision": [read_file(computer_vision_path + '/' + name) for name in computer_vision_files]
+    paths = {
+        "Abstract": [abstract_path + '/' + name for name in abstract_files],
+        "Introduction": [introduction_path + '/' + name for name in introduction_files],
+        "Object Detection": [object_detection_path + '/' + name for name in object_detection_files],
+        "Detection Test": [detection_test_path + '/' + name for name in detection_test_files],
+        "Computer Vision": [computer_vision_path + '/' + name for name in computer_vision_files]
     }
 
     st.sidebar.title("Subjects list")
@@ -61,7 +61,7 @@ def main():
     page = pages[selection]
 
     with st.spinner(f'Loading {selection}...'):
-        page.main(images[selection])
+        page.main([read_file(path) for path in paths[selection]])
 
 
 if __name__ == "__main__":

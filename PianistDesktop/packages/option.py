@@ -1,7 +1,7 @@
 class Option:
     def __init__(self):
-        self.__dict__['weights'] = '/media/cjchun/Samsung USB/PianistDesktop/PianistDesktop/packages/models/best.pt'
-        self.__dict__['source'] = '/media/cjchun/Samsung USB/PianistDesktop/PianistDesktop/packages/models/data/images'
+        self.__dict__['weights'] = 'models/besk.pt'
+        self.__dict__['source'] = 'models/data/images'
         self.__dict__['img_size'] = 2048
         self.__dict__['conf_thres'] = 0.8
         self.__dict__['iou_thres'] = 0.5
@@ -15,7 +15,7 @@ class Option:
         self.__dict__['agnostic_nms'] = False
         self.__dict__['augment'] = False
         self.__dict__['update'] = False
-        self.__dict__['project'] = '/media/cjchun/Samsung USB/PianistDesktop/PianistDesktop/packages/runs/detect'
+        self.__dict__['project'] = '/runs/detect'
         self.__dict__['name'] = 'exp'
         self.__dict__['exist_ok'] = False
         self.__dict__['line_thickness'] = 1
