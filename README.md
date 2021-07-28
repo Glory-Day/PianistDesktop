@@ -1,5 +1,5 @@
-<h1 style='text-align: center;'>Project Pianist</h1>
 <p align="center"><img src="images/logo.png"></p>
+<div align="center"><h1>Pianist Desktop</h1></div>
 
 ---
 
@@ -89,6 +89,7 @@ CUDA: 11.1 version
 pip install -r requirements.txt
 ```
 
+* **Review**
 <p align="center"><img src="images/streamlit.png"></p>
 
 ---
