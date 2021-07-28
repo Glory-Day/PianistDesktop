@@ -1,5 +1,5 @@
 <h1 style='text-align: center;'>Project Pianist</h1>
-<p align="center"><img src="images/main.png"></p>
+<p align="center"><img src="images/logo.png"></p>
 
 ---
 
