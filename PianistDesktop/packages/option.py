@@ -1,6 +1,6 @@
 class Option:
     def __init__(self):
-        self.__dict__['weights'] = 'models/besk.pt'
+        self.__dict__['weights'] = 'models/best.pt'
         self.__dict__['source'] = 'models/data/images'
         self.__dict__['img_size'] = 2048
         self.__dict__['conf_thres'] = 0.8

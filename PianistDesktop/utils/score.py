@@ -1,4 +1,6 @@
 import codecs
+import os
+
 import numpy as np
 import cv2
 import copy
@@ -824,3 +826,29 @@ class Score:
     @property
     def notes(self) -> str:
         return self.__notes
+
+
+if __name__ == '__main__':
+    # Please put the path of the converted images
+    image_path = ""
+    # Please put the path of the converted labels
+    label_path = ""
+
+    notes = ''
+
+    image_names = os.listdir()
+    label_names = os.listdir()
+
+    score = list()
+
+    for i in range(len(image_names)):
+        scores.append(Score(
+            image_path=image_path + '/' + image_names[i],
+            label_path=label_path + '/' + label_names[i]
+        ))
+
+    for score in scores:
+        notes += score.notes
+
+    with open("../result", 'w') as file:
+        file.write(notes)
