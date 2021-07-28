@@ -1,8 +1,6 @@
 <p align="center"><img src="images/logo.png"></p>
 <div align="center"><h1>Pianist Desktop</h1></div>
 
----
-
 ## 1. Usage
 * **Option.py**
 ```python
@@ -103,6 +101,9 @@ streamlit run main.py
 ---
 
 ## 5. VR Content Download
+
+* **Review**
+<p align="center"><img src="images/VR_review.png"></p>
 
 * **Google Drive URL :**
 https://drive.google.com/drive/folders/12N9wUYfFP8Lm0WtIN58A-DIdeR_WiPrm?usp=sharing
