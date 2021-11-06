@@ -839,7 +839,7 @@ if __name__ == '__main__':
     image_names = os.listdir()
     label_names = os.listdir()
 
-    score = list()
+    scores = list()
 
     for i in range(len(image_names)):
         scores.append(Score(
